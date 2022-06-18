@@ -1,0 +1,25 @@
+body {
+  background-image: url('./img/real-estate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gamefield {
+  background-color: rgba(51, 255, 0, 0.5);
+  width: 1600px;
+  height: 850px;
+  margin: 10px auto;
+  display: flex;
+
+}
+
+.gamepanel {
+  background-color: rgba(0, 255, 255, 0.5);
+  width: 300px;
+}
+
+.gamearea {
+  background-color: rgba(245, 241, 4, 0.5);
+  width: 100%;
+}
+
