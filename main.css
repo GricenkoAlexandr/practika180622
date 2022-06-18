@@ -10,16 +10,51 @@ body {
   height: 850px;
   margin: 10px auto;
   display: flex;
-
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .gamepanel {
   background-color: rgba(0, 255, 255, 0.5);
   width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 20px;
+  margin-right: 10px;
 }
 
 .gamearea {
   background-color: rgba(245, 241, 4, 0.5);
   width: 100%;
+  padding: 20px;
+  border-radius: 20px;
 }
 
+.btnblock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnblock button {
+  background-color:transparent;
+  color: blue;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  width: 80px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+.squere {
+  width: 100px;
+  height: 100px;
+  background-color:blueviolet;
+  border: 3px solid red;
+  border-radius: 5px;
+}
